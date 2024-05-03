@@ -19,7 +19,7 @@ main {
 }
 
 .navbar {
-    list-style-type: none
+    list-style-type: none;
 }
 
 .navbar a {
@@ -27,13 +27,14 @@ main {
     color: black;
     font-weight: bolder;
     background-color: bisque;
-    margin: 5
-    padding: 5 2em;
+    
 }
 
 .navbar button {
     background-color: bisque;
     margin: 3em;
-    
-    align-content: auto;
+}
+
+.ingredients-salmon {
+    list-style-type: none;
 }
