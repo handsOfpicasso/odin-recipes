@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    background-color: salmon;
+}
+
+main {
+    text-align: center;
+    margin-top: 50%;
+}
+
+.salmon {
+    max-width: 300px;
+    max-height: auto;
+}
+
+.pancakes {
+    max-width: 300px;
+    max-height: auto;
+}
+
+.navbar {
+    list-style-type: none
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: bisque;
+    margin: 5
+    padding: 5 2em;
+}
+
+.navbar button {
+    background-color: bisque;
+    margin: 3em;
+    
+    align-content: auto;
+}
