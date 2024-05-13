@@ -1,16 +1,34 @@
 * {
     box-sizing: border-box;
+    outline: 2px solid black;
+}
+
+body {
     background-color: salmon;
 }
 
-main {
+.main-home {
     text-align: center;
     margin-top: 50%;
+    align-content: center;
 }
 
-.salmon {
+.main-salmon {
+    text-align: center;
+}
+
+.salmonpic {
+    display: flex;
     max-width: 300px;
     max-height: auto;
+    align-content: center;
+    padding-left: 6em;
+}
+
+.salmon-directions {
+    display: flexbox;
+    text-align: left;
+    margin: 2 auto;
 }
 
 .pancakes {
@@ -19,22 +37,29 @@ main {
 }
 
 .navbar {
+    display: flex;
+    margin-top: 0;
     list-style-type: none;
 }
 
-.navbar a {
+.navbar button {
+    display: flexbox;
+    background-color: bisque;
+    margin: 2em;
+    align-content: center;
+    height: 2em;
+    width: 9em;
+    background-color: bisque;
+    border: 2px solid;
+    font: 18px bolder;
+    padding-top: .3em;
+  
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    background-color: bisque;
-    
-}
-
-.navbar button {
-    background-color: bisque;
-    margin: 3em;
 }
 
 .ingredients-salmon {
     list-style-type: none;
+    font: 22px bolder;
 }
