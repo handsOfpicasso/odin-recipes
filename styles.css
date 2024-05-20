@@ -8,8 +8,9 @@ body {
 }
 
 .main-home {
+    display: flexbox;
     text-align: center;
-    margin-top: 50%;
+    justify-content: center;
     align-content: center;
 }
 
@@ -37,23 +38,20 @@ body {
 }
 
 .navbar {
-    display: flex;
+    flex: auto;
     margin-top: 0;
     list-style-type: none;
 }
 
 .navbar button {
-    display: flexbox;
+    flex: auto;
     background-color: bisque;
     margin: 2em;
-    align-content: center;
     height: 2em;
     width: 9em;
     background-color: bisque;
     border: 2px solid;
     font: 18px bolder;
-    padding-top: .3em;
-  
     text-decoration: none;
     color: black;
     font-weight: bolder;
